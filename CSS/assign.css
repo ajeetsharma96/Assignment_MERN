@@ -1,0 +1,16 @@
+.box{
+    background-color: blue;
+    margin: 10px;
+    padding: 0px 40px;
+    display:inline;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.container{
+    background-color:green;
+    padding: 40px;
+    border:2px solid black;
+    border-radius: 5px; 
+    
+}

@@ -1,0 +1,34 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:burlywood;
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between;  */
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 20px;
+
+}
+
+.box{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    color: black;
+    background-color:cyan;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}

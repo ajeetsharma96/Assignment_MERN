@@ -1,0 +1,78 @@
+.header{
+    background-color:rgb(28, 24, 24);
+    color:black;
+    padding: 0px;
+    margin: 0px;
+    height:60px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    gap: 20px;
+}
+
+body{
+    margin: 0px;
+}
+
+.nav{
+    border: 1px solid rgb(232, 135, 44);
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(232, 128, 25);
+    padding: 5px;
+    margin: 2px;
+}
+
+.items{
+    color: black;
+    display:inline;
+    padding: 2px 10px;
+}
+
+.cards{
+    background-color: rgb(231, 197, 75);
+    border: 2px solid rgb(231, 197, 75);
+    border-radius: 10px;
+    margin: 0px 0px;
+    padding: 100px 50px;
+
+}
+
+.card{
+    background-color:rgb(230, 106, 39);
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline;
+    padding: 80px 60px;
+    margin: 5px 50px;
+}
+
+html{
+    background-color:rgb(225, 232, 92);
+}
+
+#amazonlogo img{
+    width: 100px;
+    height: auto;
+    margin: 0px 2px;
+}
+
+
+.box{
+    display:inline-block;
+}
+
+.location-text{
+    color: white;
+    line-height: 2px;
+    font-size:10px;
+    padding: 10px 20px;
+}
+
+.deliver{
+    padding: 4px;
+}
+
+.place{
+    font-weight: bold;
+}

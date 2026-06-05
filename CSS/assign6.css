@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+}
+
+
+.page1{
+    position: relative;
+    text-align: center; 
+    position:relative;
+    background-color: beige;
+    height: 100vh;
+}
+.page1 h1{
+    padding: 10px;
+}
+
+.page2{
+    text-align: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+
+img{
+    position: sticky;
+    background-color: red;
+    border: 2px solid beige;
+    border-radius: 5px;
+}f

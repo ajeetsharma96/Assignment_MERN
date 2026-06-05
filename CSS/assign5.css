@@ -1,0 +1,82 @@
+.main{
+    background-color:white;
+    height:100;
+    width:100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin: 100px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+    height: 550px;
+    width: 557px;
+    padding: 0px 0px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    overflow: hidden;
+    box-shadow: rgba(0,0,0, 0.350) 0px 5px 15px;
+}
+
+.image img{
+    padding-bottom: 0px;
+    position:relative;
+    margin:-2px 30px;
+    padding: 0px 0px;
+    top: -17px;
+    left: -43px;
+    padding-right: -20px;
+}
+
+.img-name{
+    bottom: 500px;
+    padding: 0px 30px;
+    
+}
+
+.price{
+    font-weight: bold;
+    color: green;
+    font-size: 25px;
+    padding: 0px 30px;
+
+}
+
+button{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    background-color:black;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 7px;
+    margin: 30px 125px;
+}
+
+.sale-card{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+
+    background: red;
+    color: white;
+    padding: 15px;
+    border-radius: 18px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.like{
+    position: absolute;
+    background: transparent;
+    color: black;
+    font-size: 40px;
+
+    top: 20px;
+    right: 40px;
+}
